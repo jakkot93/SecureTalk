@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">SecureTalk</string>
+
+    <string name="tv1">You want to create or join a channel?</string>
+    <string name="join">JOIN</string>
+    <string name="create">CREATE</string>
+    <string name="tv2">Select the type of communication</string>
+    <string name="messenger">Messenger</string>
+    <string name="phone_call">Phone Call</string>
+    <string name="tv3">Enter the IP address</string>
+    <string name="et">Start</string>
+    <string name="msg">Your Message</string>
+
+
+    <string name="title_activity_server">Server</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_client">Client</string>
+    <string name="title_activity_chat_client">ChatClient</string>
+    <string name="title_activity_chat_server">ChatServer</string>
+    <string name="title_activity_call_client">CallClient</string>
+    <string name="title_activity_call_server">CallServer</string>
+</resources>

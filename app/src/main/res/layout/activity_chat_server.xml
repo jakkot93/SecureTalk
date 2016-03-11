@@ -1,0 +1,119 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="#000000"
+    tools:context="com.jakkot93.securetalk.ChatServer">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chat Server"
+        android:textColor="#ffffff"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    </TextView>
+
+    <TextView
+        android:id="@+id/InfoIp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Address IP"
+        android:textColor="#ffffff"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editTextServer"
+        android:hint="@string/msg"
+        android:maxLines="1"
+        android:inputType="text"
+        android:background="#ffffff"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/InfoIp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/send"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="SendMsgButton"
+        android:text="Send"
+        android:width="150dp"
+        android:layout_below="@+id/editTextServer"
+        android:layout_centerHorizontal="true">
+    </Button>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Messages:"
+        android:textColor="#ffffff"
+        android:id="@+id/text2"
+        android:textStyle="italic"
+        android:textSize="20dp"
+        android:layout_below="@+id/editTextServer"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ChatMsgServer"
+        android:textColor="#ffffff"
+        android:layout_below="@+id/text2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disconnect"
+        android:id="@+id/button"
+        android:onClick="Disconnect"
+        android:width="150dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Channel Unprotected !!!"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:id="@+id/channelServer"
+        android:layout_below="@+id/InfoIp"
+        android:layout_centerHorizontal="true" />
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleLarge"
+        android:progressDrawable="@drawable/circular_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progressBar"
+        android:layout_below="@+id/editTextServer"
+        android:layout_alignEnd="@+id/editTextServer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Wait for Client..."
+        android:textColor="#ffffff"
+        android:id="@+id/wait"
+        android:layout_below="@+id/progressBar"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

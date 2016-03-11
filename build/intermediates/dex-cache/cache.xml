@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\pre-dexed\debug\classes-edddd70142a9978a7c46107b87fb68d4a965b059.jar" />
+    </item>
+    <item
+        jar="E:\Android\AndroidSDK\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1-ec168d3daca914d137ef4ae21a8619c0b9271d99.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1-091725d49b36f1b4e40e503d05a94f67e68dec8d.jar" />
+    </item>
+    <item
+        jar="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\Jakkot93\Desktop\Android_Project\SecureTalk\app\build\intermediates\pre-dexed\debug\classes-5e4a2df87e0c0753071e631154ba4c89aa1432be.jar" />
+    </item>
+
+</items>
